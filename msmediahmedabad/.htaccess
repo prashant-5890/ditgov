@@ -1,0 +1,5 @@
+ErrorDocument 404 https://msmediahmedabad.gov.in/404.html
+<LimitExcept GET POST>
+	Order Allow,Deny
+	Deny from all
+</LimitExcept>
